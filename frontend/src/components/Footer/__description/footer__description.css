@@ -1,0 +1,30 @@
+.footer__description {
+    color: #8B8B8B;
+    margin: 0;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__description::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #424242;;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__description::after {
+        padding-top: 21px;
+    }
+}
+

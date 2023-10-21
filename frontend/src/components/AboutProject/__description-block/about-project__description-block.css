@@ -1,0 +1,19 @@
+.about-project__description-block {
+    display: flex;
+    padding: 70px 0 0;
+    gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project__description-block {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-project__description-block {
+        flex-direction: column;
+        padding: 60px 0 0;
+        gap: 56px;
+    }
+}

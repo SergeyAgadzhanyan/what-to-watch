@@ -1,0 +1,13 @@
+.header-unauth__links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 30px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .header-unauth__links {
+        gap: 14px;
+    }
+}

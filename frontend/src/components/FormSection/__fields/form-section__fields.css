@@ -1,0 +1,13 @@
+.form-section__fields {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .form-section__fields {
+        padding-top: 80px;
+    }
+}
+

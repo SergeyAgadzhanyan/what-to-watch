@@ -1,0 +1,27 @@
+.header-unauth__link-registration {
+    max-width: 77px;
+    max-height: 26px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    font-family: Inter, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 425px) {
+    .header-unauth__link-registration {
+        max-width: 64px;
+        font-size: 10px;
+    }
+}
+
+

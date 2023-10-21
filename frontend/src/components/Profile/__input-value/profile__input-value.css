@@ -1,0 +1,12 @@
+.profile__input-value {
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

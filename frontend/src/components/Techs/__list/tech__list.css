@@ -1,0 +1,20 @@
+.tech__list {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .tech__list {
+        padding: 83px 0 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tech__list {
+        display: grid;
+        grid-template-columns: 84px 84px;
+        padding: 50px 0 0;
+    }
+}

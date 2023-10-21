@@ -1,0 +1,14 @@
+.profile__input-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile__input-group:first-child:after {
+    display: block;
+    margin: 16px 0;
+    content: "";
+    width: 100%;
+    border-bottom: #424242 solid 1px;
+}
+

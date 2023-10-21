@@ -1,0 +1,17 @@
+.about-project__weeks_backend {
+    background: #3DDC84;
+    color: #000;
+    width: 228px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project__weeks_backend {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-project__weeks_backend {
+        width: 100px;
+    }
+}

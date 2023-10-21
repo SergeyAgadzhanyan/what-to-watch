@@ -1,0 +1,25 @@
+.about-me__content {
+    display: flex;
+    gap: 270px;
+    padding: 66px 0 0;
+}
+
+@media screen and (max-width: 850px) {
+    .about-me__content {
+        gap: 49px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__content {
+        padding: 66px 0 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-me__content {
+        padding: 60px 0 0;
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,17 @@
+.movies-card {
+    width: 270px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .movies-card {
+        width: 339px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .movies-card {
+        width: 300px;
+    }
+}
+

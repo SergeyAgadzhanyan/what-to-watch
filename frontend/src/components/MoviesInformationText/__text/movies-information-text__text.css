@@ -1,0 +1,21 @@
+.movies-information-text__text {
+    margin: 0;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: scroll;
+    height: 175px;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 116% */
+}
+
+
+@media screen and (max-width: 700px) {
+    .movies-information-text__text {
+        font-size: 13px;
+    }
+}

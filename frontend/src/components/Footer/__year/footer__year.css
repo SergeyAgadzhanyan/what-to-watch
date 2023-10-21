@@ -1,0 +1,16 @@
+.footer__year {
+    font-family: Inter, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__year {
+        color: #8B8B8B;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+}

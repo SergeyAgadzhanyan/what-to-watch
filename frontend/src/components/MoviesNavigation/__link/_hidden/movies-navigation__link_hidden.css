@@ -1,0 +1,9 @@
+.movies-navigation__link_hidden {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .movies-navigation__link_hidden {
+        display: block;
+    }
+}

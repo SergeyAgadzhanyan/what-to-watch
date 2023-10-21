@@ -1,0 +1,11 @@
+.header-auth__hamburger-icon {
+    width: 43px;
+    height: 43px;
+}
+
+@media screen and (max-width: 425px) {
+    .header-auth__hamburger-icon {
+        width: 39px;
+        height: 43px;
+    }
+}

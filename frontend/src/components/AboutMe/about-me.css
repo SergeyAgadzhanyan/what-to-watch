@@ -1,0 +1,19 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #202020;
+    padding: 110px 70px 125px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        padding: 90px 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-me {
+        padding: 70px 14px;
+    }
+}

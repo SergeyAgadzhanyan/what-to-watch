@@ -1,0 +1,21 @@
+.promo {
+    display: flex;
+    background: #073042;
+    justify-content: center;
+    position: relative;
+    height: 524px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+    .promo {
+        height: 784px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .promo {
+        height: 570px;
+    }
+}

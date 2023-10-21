@@ -1,0 +1,17 @@
+.movies-container {
+    width: 100%;
+    min-height: 540px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .movies-container {
+        min-height: 788px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .movies-container {
+        min-height: calc(576px + 140px);
+    }
+}

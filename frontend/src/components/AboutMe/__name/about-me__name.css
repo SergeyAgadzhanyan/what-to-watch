@@ -1,0 +1,32 @@
+.about-me__name {
+    margin: 0;
+    max-width: 600px;
+    font-family: Inter, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 116% */
+    letter-spacing: -2px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__name {
+        max-width: 348px;
+        font-size: 40px;
+        line-height: 40px; /* 100% */
+        letter-spacing: -1.6px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-me__name {
+        padding: 40px 0 0;
+        max-width: 292px;
+        font-size: 30px;
+        line-height: normal;
+        letter-spacing: -1.2px;
+    }
+}

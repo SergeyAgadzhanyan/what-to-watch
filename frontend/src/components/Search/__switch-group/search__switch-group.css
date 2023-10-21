@@ -1,0 +1,12 @@
+.search__switch-group {
+    display: flex;
+    padding: 23px 0 0;
+    gap: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .search__switch-group {
+        padding: 24px 0 0;
+    }
+}
+

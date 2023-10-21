@@ -1,0 +1,23 @@
+.portfolio__link-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 50px;
+    padding: 0 0 19px;
+    border-bottom: 1px solid #E6E6E6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio__link-group:nth-of-type(3n) {
+    border-bottom: none;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 425px) {
+    .portfolio__link-group {
+        height: 28px;
+    }
+}
+

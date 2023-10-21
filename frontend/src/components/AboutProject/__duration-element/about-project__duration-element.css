@@ -1,0 +1,12 @@
+.about-project__duration-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+@media screen and (max-width: 425px) {
+    .about-project__duration-element {
+        gap: 10px;
+    }
+}

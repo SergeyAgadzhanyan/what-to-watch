@@ -1,0 +1,18 @@
+.about-project__description-title {
+    margin: 0;
+    max-width: 550px;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+@media screen and (max-width: 425px) {
+    .about-project__description-title {
+        font-size: 18px;
+        font-style: normal;
+        letter-spacing: -0.72px;
+    }
+}

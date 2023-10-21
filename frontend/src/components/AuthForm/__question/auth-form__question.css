@@ -1,0 +1,16 @@
+.auth-form__question {
+    color: #8B8B8B;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .auth-form__question {
+        font-size: 12px;
+    }
+}
+

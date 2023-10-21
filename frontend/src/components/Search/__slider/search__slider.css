@@ -1,0 +1,24 @@
+.search__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: .4s;
+}
+
+.search__slider:before {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    width: 13px;
+    height: 13px;
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}

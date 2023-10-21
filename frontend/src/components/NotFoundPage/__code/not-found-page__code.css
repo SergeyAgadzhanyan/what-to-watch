@@ -1,0 +1,14 @@
+.not-found-page__code {
+    margin: 0;
+    font-family: Inter, serif;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 425px) {
+    .not-found-page__code {
+        font-size: 80px;
+    }
+}

@@ -1,0 +1,17 @@
+.about-project__duration {
+    display: flex;
+    padding-top: 110px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project__duration {
+        padding-top: 93px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-project__duration {
+        padding-top: 60px;
+    }
+}
+

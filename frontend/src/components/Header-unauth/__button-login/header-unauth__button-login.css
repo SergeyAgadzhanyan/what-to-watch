@@ -1,0 +1,23 @@
+.header-unauth__button-login {
+    border-radius: 3px;
+    background: #3DDC84;
+    width: 76px;
+    height: 32px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-family: Inter, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+}
+
+
+@media screen and (max-width: 425px) {
+    .header-unauth__button-login {
+        width: 54px;
+        height: 26px;
+        font-size: 10px;
+    }
+}

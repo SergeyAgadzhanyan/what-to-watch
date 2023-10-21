@@ -1,0 +1,28 @@
+.about-me__description {
+    max-width: 600px;
+    margin: 0;
+    padding: 26px 0 0;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__description {
+        padding: 16px 0 0;
+        max-width: 364px;
+        font-size: 12px;
+        line-height: 18px; /* 150% */
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-me__description {
+        padding: 20px 0 0;
+        max-width: 292px;
+        font-size: 11px;
+        line-height: 16px; /* 145.455% */
+    }
+}

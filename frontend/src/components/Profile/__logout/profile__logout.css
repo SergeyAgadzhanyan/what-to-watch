@@ -1,0 +1,20 @@
+.profile__logout {
+    padding: 16px 0 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #EE3465;
+    font-family: Inter, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__logout {
+        font-size: 12px;
+    }
+}
+

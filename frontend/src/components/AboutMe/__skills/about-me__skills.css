@@ -1,0 +1,27 @@
+.about-me__skills {
+    padding: 18px 0 0;
+    max-width: 600px;
+    margin: 0;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 111.111% */
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__skills {
+        max-width: 348px;
+        font-size: 12px;
+        line-height: 18px; /* 150% */
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-me__skills {
+        max-width: 292px;
+        font-size: 11px;
+        line-height: 16px; /* 145.455% */
+    }
+}

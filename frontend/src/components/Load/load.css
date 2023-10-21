@@ -1,0 +1,15 @@
+.load {
+    padding: 50px 70px 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .load {
+        padding: 50px 30px 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .load {
+        padding: 50px 10px 80px;
+    }
+}

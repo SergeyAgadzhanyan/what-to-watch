@@ -1,0 +1,10 @@
+.search__checkbox {
+}
+
+.search__checkbox:checked + .search__slider {
+    background-color: #3DDC84;
+}
+
+.search__checkbox:checked + .search__slider:before {
+    transform: translateX(15px);
+}

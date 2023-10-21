@@ -1,0 +1,17 @@
+.portfolio__link-button {
+    height: 18px;
+    aspect-ratio: 1/1;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__link-button {
+        height: 17px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .portfolio__link-button {
+        height: 11px;
+    }
+}

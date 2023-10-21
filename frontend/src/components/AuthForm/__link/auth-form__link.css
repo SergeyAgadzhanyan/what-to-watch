@@ -1,0 +1,19 @@
+.auth-form__link {
+    color: #4285F4;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .auth-form__link {
+        font-size: 12px;
+    }
+}
+

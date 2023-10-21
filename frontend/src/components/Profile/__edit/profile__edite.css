@@ -1,0 +1,30 @@
+.profile__edite {
+    margin: 220px 0 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile__edite:disabled {
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .profile__edite {
+        margin: 210px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile__edite {
+        font-size: 12px;
+        margin: 379px 0 0;
+    }
+}
